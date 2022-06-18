@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="25dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Висота дрона"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#C50000"/>
+        <EditText
+            android:id="@+id/drone_height"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:background="#878688"
+            android:inputType="number"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="25dp"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Дистанія до цілі"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#C50000"/>
+        <EditText
+            android:id="@+id/land_distance"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textAlignment="center"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:background="#878688"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="25dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Кут між лініями"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#C50000"/>
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/angle"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:background="#878688"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="25dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Дистанція по воздуху"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#C50000"/>
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/res_distance"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="#878688"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="25dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Тангенс кута\n"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#C50000"/>
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/res_tan"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="#878688"
+            android:inputType="none"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#C50000"
+        android:textSize="24sp"
+        android:layout_margin="25dp"
+        android:text="Хороший громадянин Російської Федерації — мертвий громадянин Російської Федерації."/>
+</LinearLayout>
