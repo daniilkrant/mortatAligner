@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CopterCalculator</string>
+    <string name="title_activity_tabbed_actvitiy">TabbedActvitiy</string>
+    <string name="tab_text_1">дистанція Дрон - Ціль</string>
+    <string name="tab_text_2">дистанція до цілі</string>
+    <string name="tab_text_3">відхилення розриву в сторону</string>
 </resources>

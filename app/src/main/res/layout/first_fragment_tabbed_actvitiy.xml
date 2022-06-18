@@ -17,7 +17,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="Висота дрона"
+            android:text="Висота дрона (m)"
             android:textSize="24sp"
             android:textAlignment="center"
             android:gravity="center"
@@ -68,7 +68,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="Кут між лініями"
+            android:text="Кут між лініями (°)"
             android:textSize="24sp"
             android:gravity="center"
             android:textAlignment="center"
@@ -149,7 +149,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textColor="#C50000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         android:layout_margin="25dp"
         android:text="Хороший громадянин Російської Федерації — мертвий громадянин Російської Федерації."/>
 </LinearLayout>
